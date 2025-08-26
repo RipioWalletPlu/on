@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imobiliária Premium</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Ícones Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">🏠 Imobiliária Premium</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#imoveis">Imóveis</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Encontre o imóvel dos seus sonhos</h1>
+      <p class="lead">Venda, compra e aluguel com segurança e confiança.</p>
+      <a href="#imoveis" class="btn btn-primary btn-lg mt-3">Ver imóveis disponíveis</a>
+    </div>
+  </header>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Nossos Serviços</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <i class="bi bi-house-door-fill display-4 text-primary"></i>
+          <h5 class="mt-3">Venda de Imóveis</h5>
+          <p>Oferecemos os melhores imóveis para compra, com assessoria completa.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-cash-coin display-4 text-success"></i>
+          <h5 class="mt-3">Aluguel</h5>
+          <p>Encontre opções de aluguel com valores justos e sem burocracia.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-people-fill display-4 text-warning"></i>
+          <h5 class="mt-3">Consultoria</h5>
+          <p>Atendimento personalizado para ajudar você a realizar o melhor negócio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="fw-bold">Sobre Nós</h2>
+          <p>Somos a <strong>Imobiliária Premium</strong>, especializada em venda, compra e aluguel de imóveis. Nosso compromisso é oferecer um atendimento transparente e ágil, garantindo a satisfação dos nossos clientes.</p>
+          <p><strong>CNPJ:</strong> 49.759.183/0001-12</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/500x300" alt="Imobiliária" class="img-fluid rounded shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Imóveis -->
+  <section id="imoveis" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Destaques</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Casa 1">
+            <div class="card-body">
+              <h5 class="card-title">Casa Moderna</h5>
+              <p class="card-text">3 quartos, 2 banheiros, garagem e área gourmet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Apartamento">
+            <div class="card-body">
+              <h5 class="card-title">Apartamento Luxo</h5>
+              <p class="card-text">2 suítes, varanda gourmet, vista panorâmica.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Cobertura">
+            <div class="card-body">
+              <h5 class="card-title">Cobertura Exclusiva</h5>
+              <p class="card-text">4 suítes, piscina privativa e rooftop.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Entre em Contato</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Imobiliária Premium - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
